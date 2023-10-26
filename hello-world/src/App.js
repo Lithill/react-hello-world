@@ -16,9 +16,9 @@ function App() {
         <button>Action</button>
       </Greet>
       <Greet name="Connie" surname="Hamilgridge"></Greet>
-      <Welcome></Welcome>
-      <Welcome></Welcome>
-      <Welcome></Welcome>
+      <Welcome name="Ross" surname="Hamilton"></Welcome>
+      <Welcome name="Chris" surname="Mugridge"></Welcome>
+      <Welcome name="Connie" surname="Hamilgridge"></Welcome>
       <HelloJSX></HelloJSX>
       <Hi></Hi>
     </div>

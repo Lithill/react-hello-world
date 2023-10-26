@@ -6,7 +6,7 @@ const Hi = () => {
     return React.createElement(
         'div',
         {id: 'hello', className: 'dummyClass'},
-        React.createElement('h1', null, "React component with vanilla JavaScript")
+        React.createElement('h1', null, "React functional component with vanilla JavaScript")
     )
 }
 

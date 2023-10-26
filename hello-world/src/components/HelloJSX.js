@@ -5,7 +5,7 @@ import React from 'react'
 const HelloJSX = () => {
     return (
         <div className='dummyClass'>
-            <h1>React component with JSX</h1>
+            <h1>React functional component with JSX</h1>
         </div>
     )
 }
