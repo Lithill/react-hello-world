@@ -1,13 +1,13 @@
 import React from 'react'
 
-// JSX
+// JSX - functional component
 
-const Hello = () => {
+const HelloJSX = () => {
     return (
-        <div>
-            <h1>This is the JSX version</h1>
+        <div className='dummyClass'>
+            <h1>React component with JSX</h1>
         </div>
     )
 }
 
-export default Hello
+export default HelloJSX
