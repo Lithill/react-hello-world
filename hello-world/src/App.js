@@ -4,11 +4,12 @@ import Greet from './components/Greet';
 import Welcome from './components/Welcome';
 import HelloJSX from './components/HelloJSX';
 import Hi from './components/Hi';
+import Message from './components/Message';
 
 function App() {
   return (
     <div className="App">
-      <Greet name="Ross" surname="Hamilton">
+      {/* <Greet name="Ross" surname="Hamilton">
         <p>This is a child props</p>
         <p>And this is another</p>
       </Greet>
@@ -20,7 +21,8 @@ function App() {
       <Welcome name="Chris" surname="Mugridge"></Welcome>
       <Welcome name="Connie" surname="Hamilgridge"></Welcome>
       <HelloJSX></HelloJSX>
-      <Hi></Hi>
+      <Hi></Hi> */}
+      <Message></Message>
     </div>
   );
 }
