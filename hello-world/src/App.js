@@ -10,7 +10,14 @@ import Counter from './components/Counter';
 function App() {
   return (
     <div className="App">
-      {/* <Greet name="Ross" surname="Hamilton">
+      {/* 
+      <Welcome name="Chris" surname="Mugridge"></Welcome>
+      <Welcome name="Connie" surname="Hamilgridge"></Welcome>
+      <HelloJSX></HelloJSX>
+      <Hi></Hi> 
+      <Counter></Counter>
+      <Message></Message>*/}
+      <Greet name="Ross" surname="Hamilton">
         <p>This is a child props</p>
         <p>And this is another</p>
       </Greet>
@@ -19,12 +26,7 @@ function App() {
       </Greet>
       <Greet name="Connie" surname="Hamilgridge"></Greet>
       <Welcome name="Ross" surname="Hamilton"></Welcome>
-      <Welcome name="Chris" surname="Mugridge"></Welcome>
-      <Welcome name="Connie" surname="Hamilgridge"></Welcome>
-      <HelloJSX></HelloJSX>
-      <Hi></Hi> 
-      <Message></Message>*/}
-      <Counter></Counter>
+      
     </div>
   );
 }

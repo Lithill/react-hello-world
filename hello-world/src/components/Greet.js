@@ -2,12 +2,11 @@ import React from 'react'
 
 // This is a functional component
 
-const Greet = (props) => {
-    console.log(props)
+const Greet = props => {
+    const {name, surname} = props
     return (
         <div>
-            <h1>Hello {props.name} {props.surname} (Functional Component)</h1>
-            {props.children}
+            <h1>Hello {name} {surname} (Functional Component)</h1>
         </div>
     )
 }
