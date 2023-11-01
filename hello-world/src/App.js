@@ -5,6 +5,7 @@ import Welcome from './components/Welcome';
 import HelloJSX from './components/HelloJSX';
 import Hi from './components/Hi';
 import Message from './components/Message';
+import Counter from './components/Counter';
 
 function App() {
   return (
@@ -21,8 +22,9 @@ function App() {
       <Welcome name="Chris" surname="Mugridge"></Welcome>
       <Welcome name="Connie" surname="Hamilgridge"></Welcome>
       <HelloJSX></HelloJSX>
-      <Hi></Hi> */}
-      <Message></Message>
+      <Hi></Hi> 
+      <Message></Message>*/}
+      <Counter></Counter>
     </div>
   );
 }
